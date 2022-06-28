@@ -1,0 +1,288 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+   ol, ul {
+     list-style: none;
+   }
+  
+   img {
+    vertical-align: top;
+    max-width: 100%;
+    border: none;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  /* Base */
+  * {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+  }
+  
+  /* #173346 */
+  /* #6bb039 */
+  
+  body {
+    font-size: 14px;
+    color: #444;
+    background-color: white;
+    font-weight: 400;
+  }
+  
+  .container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .col-2 {
+    width: 16,666666667%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  
+  .col-4 {
+    width: 33,333333333%;
+  }
+  
+  .col-6 {
+    width: 50%;
+  }
+
+/* Header */
+.header-top {
+    height: 40px;
+    background-color: #f1f6f2;
+    color: #769468;
+    font-size: small;
+}
+.nav-item{
+    display: flex;
+    justify-content: space-between;
+}
+.header-infomation {
+    line-height: 40px;
+    margin-left: 10px;
+    width: 33.33%;
+}
+.header-infomation .header-text i {
+    margin-left: 10px;
+}
+.header-content {
+    line-height: 40px;
+    width: 33.33%;
+    margin: 0 10px 0 10px;
+}
+.header-content .header-text{
+    text-align: center;
+}
+.header-icon{
+    line-height: 40px;
+    width: 33.33%;
+    margin-right: 10px;
+    text-align: right;
+}
+.header-icon i {
+    margin-right: 5px;
+}
+/* header-nav */
+.header-nav{
+    height: 80px;
+    background-color: white;
+}
+.header-logo{
+    line-height: 80px;
+    width: 20%;
+    margin-left: 25px;
+}
+.header-logo img {
+    height: 70px;
+    width: 90px;
+    vertical-align: middle;
+}
+.header-menu{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.header-menu li {
+    margin: 0 20px 0 20px;
+    line-height: 80px;
+    font-size: 20px;
+}
+.socials{
+    display: flex;
+    width: 20%;
+    align-items: center;
+    justify-content: center;
+}
+.socials li {
+    margin-left: 10px;
+}
+.socials li a{
+    margin: 0 10px 0 10px;
+}
+.socials li a i{
+   font-size: 22px;
+}
+
+/* page-main */
+
+.section-slideshow {
+    position: relative;
+}
+  
+.section-slideshow .slideshow-item img {
+    width: 100%;
+    height: 50%;
+}
+.slideshow-list-detail{
+    display: flex;
+    height: 500px;
+}
+.slideshow-list-detail .slideshow-list-1{
+    width: 30%;
+    height: 550px;
+}
+.slideshow-list-detail .slideshow-list-1 img{
+    width: 100%;
+    height: 550px;
+
+}
+
+.slideshow-list-detail .slideshow-list-2{
+    width: 70%;
+    height: 550px;
+}
+
+.slideshow-list-detail .slideshow-list-2 img{
+    width: 100%;
+    height: 550px;
+}
+
+.section-product{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.title-product{
+    margin-bottom: 20px;
+}
+.product-item img {
+    height: 400px;
+}
+
+.product-list .product-item .product-img img {
+    border-radius: 8px;
+}
+.btn-primary:hover {
+    color: #444;
+    background-color: #54e3de;
+}
+.button-load{
+    margin-top: 50px;
+}
+
+.section-banner-txt{
+    margin-top: 30px;
+    text-align: center;
+}
+
+.product-banner img {
+    height: 400px;
+}
+
+.product-list .product-banner .product-img img {
+    border-radius: 8px;
+}
+.section-product-extra{
+    margin-top: 30px;
+    text-align: center;
+}
+.section-product-extra .product-extra img {
+    width: 224.83px;
+    height: 224.83px;
+}
+
+/* Quick-zoom Container */
+.product-extra img {
+    transform-origin: 0 0;
+    transition: transform .25s, visibility .25s ease-in;
+  }
+   
+  /* The Transformation */
+  .product-extra:hover img {
+    transform: scale(1.5);
+  }
+
+.section-partner-nav{
+    display: flex;
+
+}
+.section-partner-nav .section-partner-nav-detail{
+    display: flex;
+}
+.section-partner-nav .section-partner-nav-detail .content {
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+.section-partner-nav .section-partner-nav-detail i {
+    margin-top: 30px;
+    height: 36px;
+    width: 32.42px;
+    font-size: x-large;
+}
+
+.page-footer-contract {
+    height: 400px;
+    background-color:#f6f6f8;
+}
+
+.page-footer-contract .page-footer-contract-detail{
+    margin-top: 50px;
+}
+
+.page-footer-info{
+    margin-top: 20px;
+}
+.footer-menu{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.nt-social a{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.footer-menu li{
+    margin: 10px 10px 0px 10px;
+}
+
+.widget-title{
+    margin-top: 20px;
+}
+
+.widget_footer{
+    margin-top: 42px;
+}
+
+.menu_footer-item{
+    margin-top: 15px;
+}
